@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(food.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 10px;
+}
+
+#form_container {
+    width: 30%;
+    height: 50%;
+    background-color: white;
+    padding: 20px;
+   
+}
+
+#form_container h1 {
+    text-align: center;
+    margin: 0;
+    padding: 1%;
+    color: maroon;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2%;
+    background-color: white;
+}
+
+#calcbtn {
+    width: 100%;
+    padding: 4% 0;
+    font-size: 130%;
+    background-color: maroon;
+    color: white;
+    border: 2px solid grey;
+    cursor: pointer;
+}
+
+label {
+    color: maroon;
+    font-size: 130%;
+    font-weight: bolder;
+}
